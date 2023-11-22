@@ -325,7 +325,7 @@ df_top_user.to_csv('top_user.csv',index = False)
 
 mydb = sql.connect(host="localhost",
                    user="root",
-                   password="Chandran143*",
+                   password="******",
                    database= "hemdb"
                   )
 mycursor = mydb.cursor(buffered=True)
